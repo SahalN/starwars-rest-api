@@ -14,7 +14,7 @@ Each character object in the API has the following structure:
 - `character`: The name of the character (string).
 - `createdAt`: The date and time when the character was created (string).
 - `updatedAt`: The date and time when the character was last updated (string).
-- `movie`: An array of strings representing the movies the character appeared in.
+- `movie`: The name of the movies that the character appeared in.
 - `quotes`: Notable quotes from the character (string).
 
 Example character object:
@@ -25,7 +25,7 @@ Example character object:
   "character": "Luke Skywalker",
   "createdAt": "2024-05-07T12:00:00Z",
   "updatedAt": "2024-05-07T13:30:00Z",
-  "movie": ["A New Hope", "The Empire Strikes Back", "Return of the Jedi"],
+  "movie": "A New Hope",
   "quotes": "May the Force be with you."
 }
 
