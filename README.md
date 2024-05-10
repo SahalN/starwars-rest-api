@@ -1,6 +1,6 @@
 # Star Wars API
 
-This repository contains the data structure for a Star Wars API.
+This repository contains the data structure for a Star Wars Quotes API.
 
 ## Data Structure
 
